@@ -28,6 +28,7 @@ export default {
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
+  text-align: center;
   background-color: #232323;
   min-height: 100vh;
   height: 150vh;
@@ -52,5 +53,11 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 1.5rem 0 1.5rem 0;
+}
+
+@media screen and (max-width: 674px) {
+  .header {
+    font-size: 1.8rem;
+  }
 }
 </style>
