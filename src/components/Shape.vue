@@ -6,10 +6,10 @@
     class="rect"
   ></div>
   <div class="inputs">
-    <input type="text" v-model="topLeftRadius" />
-    <input type="text" v-model="topRightRadius" />
-    <input type="text" v-model="bottomRightRadius" />
-    <input type="text" v-model="bottomLeftRadius" />
+    <input type="number" v-model="topLeftRadius" min="0" />
+    <input type="number" v-model="topRightRadius" min="0" />
+    <input type="number" v-model="bottomRightRadius" min="0" />
+    <input type="number" v-model="bottomLeftRadius" min="0" />
   </div>
   <SourceCode
     :topLeft="topLeftRadius"
@@ -59,6 +59,20 @@ export default {
 
 .inputs input:first-child {
   margin: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
 }
 
 @media screen and (max-width: 674px) {
