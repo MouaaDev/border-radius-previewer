@@ -4,17 +4,14 @@
     Border Radius Previewer
   </h1>
   <Shape />
-  <SourceCode />
 </template>
 
 <script>
 import Shape from "./components/Shape.vue"
-import SourceCode from "./components/SourceCode.vue"
 
 export default {
   components: {
     Shape,
-    SourceCode,
   },
 }
 </script>
