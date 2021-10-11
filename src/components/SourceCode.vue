@@ -34,6 +34,7 @@ export default {
 
 .source-code code {
   display: inline-block;
+  text-align: initial;
   font-family: "Source Code Pro", sans-serif;
   background-color: #4d4d4d;
   width: 400px;
