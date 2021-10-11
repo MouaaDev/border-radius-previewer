@@ -1,19 +1,21 @@
 <template>
   <div class="source-code">
     <h2>Source Code:</h2>
-    <pre><code><em>border-top-left-radius:</em> 0;
-<em>border-top-right-radius:</em> 0;
-<em>border-bottom-right-radius:</em> 0;
-<em>border-bottom-left-radius:</em> 0;
+    <pre><code><em>border-top-left-radius:</em> {{topLeft}}px;
+<em>border-top-right-radius:</em> {{topRight}}px;
+<em>border-bottom-right-radius:</em> {{bottomRight}}px;
+<em>border-bottom-left-radius:</em> {{bottomLeft}}px;
 
 <em class="comment">/* Shorthand Syntax */</em>
-<em>border-radius:</em> 0;
+<em>border-radius:</em> {{topLeft}}px {{topRight}}px {{bottomRight}}px {{bottomLeft}}px;
     </code></pre>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  props: ["topLeft", "topRight", "bottomRight", "bottomLeft"],
+}
 </script>
 
 <style scoped>
