@@ -11,10 +11,19 @@
     <input type="text" v-model="bottomRightRadius" />
     <input type="text" v-model="bottomLeftRadius" />
   </div>
+  <SourceCode
+    :topLeft="topLeftRadius"
+    :topRight="topRightRadius"
+    :bottomRight="bottomRightRadius"
+    :bottomLeft="bottomLeftRadius"
+  />
 </template>
 
 <script>
+import SourceCode from "./SourceCode.vue"
+
 export default {
+  components: { SourceCode },
   data() {
     return {
       topLeftRadius: 0,
