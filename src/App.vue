@@ -4,14 +4,17 @@
     Border Radius Previewer
   </h1>
   <Shape />
+  <SourceCode />
 </template>
 
 <script>
 import Shape from "./components/Shape.vue"
+import SourceCode from "./components/SourceCode.vue"
 
 export default {
   components: {
     Shape,
+    SourceCode,
   },
 }
 </script>
@@ -30,10 +33,11 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #232323;
   min-height: 100vh;
+  height: 150vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 #app {
