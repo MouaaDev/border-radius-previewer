@@ -7,8 +7,7 @@
 <em>border-bottom-left-radius:</em> {{bottomLeft}}px;
 
 <em class="comment">/* Shorthand Syntax */</em>
-<em>border-radius:</em> {{topLeft}}px {{topRight}}px {{bottomRight}}px {{bottomLeft}}px;
-    </code></pre>
+<em>border-radius:</em> {{topLeft}}px {{topRight}}px {{bottomRight}}px {{bottomLeft}}px;</code></pre>
   </div>
 </template>
 
