@@ -60,4 +60,11 @@ export default {
 .inputs input:first-child {
   margin: 0;
 }
+
+@media screen and (max-width: 674px) {
+  .rect {
+    width: 250px;
+    height: 250px;
+  }
+}
 </style>
