@@ -4,14 +4,17 @@
     Border Radius Previewer
   </h1>
   <Shape />
+  <Footer />
 </template>
 
 <script>
 import Shape from "./components/Shape.vue"
+import Footer from "./components/Footer.vue"
 
 export default {
   components: {
     Shape,
+    Footer,
   },
 }
 </script>
@@ -26,6 +29,7 @@ export default {
 }
 
 body {
+  position: relative;
   margin: 0;
   font-family: "Poppins", sans-serif;
   text-align: center;
