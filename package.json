@@ -1,6 +1,8 @@
 {
   "name": "border-radius-previewer",
   "version": "1.0.0",
+  "author": "Mouaadev",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
