@@ -1,7 +1,18 @@
-# Vue 3 + Vite
+# Border Radius Prviewer
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+The app allow you to enter four values and preview its effect in realtime. The source code under the inputs changes with inputs values.
 
-## Recommended IDE Setup
+![Screenshot of the app](src/assets/Border_Radius_Previewer_Screenshot.png)
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+I used Vue JS 3 to build this project as a practice. So feel free to use my code.
+If you have any advice to improve the code, contact me on my accounts below.
+
+## Contacts
+
+**[GitHub](https://github.com/MouaaDev)**
+
+**[Telegram](https://t.me/mouaadhamza)**
+
+**[Facebook](https://www.facebook.com/mouaadev/)**
+
+**[Twitter](https://twitter.com/mouaadev)**
